@@ -1,0 +1,6 @@
+help me develop a website for compressing pictures, the feature of this website contains:
+1. users can upload pic in different formats like PNG, JPEG. the website can compress the picture based on required ratio to cut the size of the picture fire;
+2. both the uploaded picture and compressed picture should be able to preview on the webpage, helping user to recognize if the picture uploaded is correct and the outcome of compression meets expectation;
+3. the webpage need to display the before and after picture file size;
+4. the webpage allows user to download compressed picture file
+You are an excellent developer and designer, please finish all the feature requirements as well as deliver Apple design visual styel.

@@ -1,0 +1,1 @@
+use Python to write a Snake Game for me. I don't have any programming experience. I don't have anything like tool or environment on my Windows laptop except for my Cursor editor. could you let me know step by step what i should do? could you give me the instruction for my next step after me telling you that i finish the current step?

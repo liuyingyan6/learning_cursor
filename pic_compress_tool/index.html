@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Compressor - Simple & Elegant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Image Compressor</h1>
+            <p class="subtitle">Simple, elegant, and powerful image compression</p>
+        </header>
+
+        <main>
+            <div class="upload-section">
+                <div class="upload-area" id="dropZone">
+                    <input type="file" id="fileInput" accept="image/png,image/jpeg" multiple hidden>
+                    <div class="upload-content">
+                        <svg class="upload-icon" viewBox="0 0 24 24" width="48" height="48">
+                            <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/>
+                        </svg>
+                        <p>Drag & drop your images here</p>
+                        <p class="upload-hint">or click to browse</p>
+                        <p class="supported-formats">Supported formats: PNG, JPEG</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="compression-controls" id="compressionControls" style="display: none;">
+                <div class="quality-control">
+                    <label for="qualitySlider">Compression Quality</label>
+                    <input type="range" id="qualitySlider" min="0" max="100" value="80">
+                    <span id="qualityValue">80%</span>
+                </div>
+            </div>
+
+            <div class="preview-section" id="previewSection" style="display: none;">
+                <div class="images-grid" id="imagesGrid">
+                    <!-- Images will be dynamically added here -->
+                </div>
+                <div class="batch-actions">
+                    <button id="downloadAllBtn" class="primary-button">Download All</button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Made with ❤️ for efficient image compression</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
