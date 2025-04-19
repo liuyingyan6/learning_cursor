@@ -1,0 +1,25 @@
+I need to develop a Chrome browser extension for generating beautifully designed quote cards. The extension will be called "Quote Card Generator". The detailed requirements are as follows:  
+# Basic Architecture Requirements  
+- Develop the Chrome extension using the Manifest V3 specification  
+  
+# Core Functional Requirements  
+1. Web Text Selection Feature  
+- Implement a right-click menu option when text is selected on a webpage  
+- When text is selected, a floating icon appears above the text; clicking it triggers the plugin menu  
+  
+2. Card Template System  
+- Provide 3 different themed styles (minimalist, classic, modern)  
+  
+3. Card Style Customization  
+- Background images: 3 preset options with custom background support. Can refer to card styles from WeChat Reading or Douban  
+- Font Settings:  
+  - 6 different font choices, fixed font size  
+  - Font color auto-adjusts based on background to maintain design coherence  
+- Layout Settings:  
+  - Text alignment options  
+  - Long selected texts should wrap properly  
+  - Adaptive margins between the text block and the card’s theme/background edges  
+  
+4. Export Options  
+- Support multiple image formats (PNG/JPG/WEBP)  
+- Allow users to choose image export quality
